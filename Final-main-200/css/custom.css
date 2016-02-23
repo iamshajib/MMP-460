@@ -1,0 +1,662 @@
+.background-home {
+    background-image: url(../img/background/bravo2.jpg);
+    /* make sure the background image's div is the same height as viewport */
+    height: 100vh;
+
+    /* make sure the image is stretched out to cover the whole viewport */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
+    background-position: center center;
+
+    background-attachment: fixed;
+}
+.background-about {
+    background-image: url(../img/photo/16.jpg);
+    /* make sure the background image's div is the same height as viewport */
+    height: 100vh;
+
+    /* make sure the image is stretched out to cover the whole viewport */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
+    background-position: center center;
+
+    background-attachment: fixed;
+}
+
+.background-work {
+    background-image: url(../img/work/4.jpg);
+    /* make sure the background image's div is the same height as viewport */
+    height: 100vh;
+
+    /* make sure the image is stretched out to cover the whole viewport */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
+    background-position: center center;
+
+    background-attachment: fixed;
+}
+
+.background-contact {
+    background-image: url(../img/contact/4.jpg);
+    /* make sure the background image's div is the same height as viewport */
+    height: 100vh;
+
+    /* make sure the image is stretched out to cover the whole viewport */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
+    background-position: center center;
+
+    background-attachment: fixed;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* navbar default controls background color of navbar, and positioning of navbar */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin: 2em 10em;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 200;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 15px;
+    color: white;
+    padding: 0 3px;
+    margin-right: 25% !important;
+    margin: 15px 3px;
+    /*border: solid 1px white;*/
+}
+
+.navbar{
+    /*background-color: rgba(0, 0, 0, 0.40);*/
+    background-color: #323232;
+    margin: 0;
+}
+.navbar-header{
+    margin-top: -1%;
+
+}
+/*___________________ end of NAV________________*/
+
+#home hr{
+
+    width: 170px;
+    background-color: gray;
+    padding: 2px;
+}
+
+#inside-back-home{
+    margin-top: 3%;
+    background-image: url(../img/home/10.jpg);
+    height: 50.1vh;
+
+    /* make sure the image is stretched out to cover the whole viewport */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
+    background-position: center center;
+
+    background-attachment: fixed;
+}
+
+#intro-home{
+    margin-bottom: 1%;
+}
+#intro-home h3{
+    text-align: center;
+    color: black;
+    margin-top: 4%;
+}
+#intro-home p{
+    margin-top: 1px;
+    font-size: 1.8em;
+    color: black;
+    text-align: center;
+}
+#introHome2{
+    margin-top: -10px;
+    margin-bottom: -2%;
+}
+#introHome2 h3{
+    text-align: center;
+    color: black;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+#textHome{
+    margin-top: 3%;
+}
+
+#textHome p{
+    padding: 1%;
+    margin-top: 6%;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    font-size: 1.090em;
+}
+#hrpic{
+    margin-top: 2%;
+}
+
+
+#gallery{
+    margin: 5%;
+}
+#pic1{
+    margin: 0% !important;
+}
+#pic2{
+    margin: 0% !important;
+}
+#box1{
+    margin-top: 5% !important;
+}
+#box2{
+    margin-bottom: 2%;
+}
+.bg-ivory {
+    /*border: 1px solid black;*/
+    position: relative;
+}
+.hide-title > h5 {
+    color: white;
+    opacity: 1;
+    position: absolute;
+    left: 38%;
+    top: 45%;
+}
+#menupic{
+    margin: auto;
+    width: 1200px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.hide-title > h2 {
+    font-size: 20px;
+    color: black;
+    opacity: 0;
+    position: absolute;
+    left: 23%;
+    top: 30%;
+}
+/*#menu-1 > h2{
+    margin-left: 3%;
+}
+
+#menu-3 > h2{
+    margin-left: -5%;
+}*/
+
+.picnav img:hover {
+    opacity: 0.3;
+    -webkit-filter: blur(3px);
+
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+
+}
+.picnav img {
+    transition:  0.5s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+
+}
+
+.picnav img{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.picnav img:hover{
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+#gallery img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+}
+#gallery img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+}
+#gallery img{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#gallery img:hover{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+/*______________________END OF HOME____________________*/
+#abouttagline {
+    position: absolute;
+    width: 100vw;
+    padding: 5em;
+    z-index: 100;
+}
+#abouttagline h1{
+    font-size: 3.5em;
+    color: white;
+}
+#abouttagline p{
+    color: white;
+}
+#abouttagline hr{
+    width: 40%;
+    background-color: gray;
+    padding-top: 1px;
+}
+
+#aboutheader{
+    margin-top: 1%;
+    /*background-color: rgba(0, 0, 0, 0.30);*/
+}
+
+#aboutheader h2{
+    /*color: gray;*/
+    font-size: 2.5em;
+}
+#aboutheader hr{
+    width: 20%;
+    background-color: gray;
+    padding-top: 1px;
+}
+#aboutheader p{
+    /*color: black;*/
+    font-size: 1.2em;
+}
+
+#abouttext1{
+    margin-top: 2%
+}
+#abouttext2{
+    margin-top: 5%;
+}
+
+#abouttext2 h2{
+    text-align: center;
+    margin-bottom: 5%;
+}
+#aboutmiddle{
+    margin-top: 5%;
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.40);
+}
+#aboutmiddle h4{
+    font-size: 20px;
+    color: white;
+}
+#aboutmiddle p{
+    color: white;
+}
+#aboutpic1{
+    margin-top: 5%;
+    background-image: url(../img/photo/17.jpg);
+    height: 55vh;
+
+    /* make sure the image is stretched out to cover the whole viewport */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
+    background-position: center center;
+
+    background-attachment: fixed;
+}
+
+/*______________________END OF ABOUT____________________*/
+#workheader{
+    margin-top: 6%;
+    /*background-color: rgba(0, 0, 0, 0.30); */
+}
+#work h1{
+    color: white;
+    font-size: 3.5em;
+}
+#work hr{
+    width: 55%;
+    background-color: gray;
+    padding-top: 1px;
+}
+#workheader p{
+    /*background-color: rgba(0, 0, 0, 0.30);*/
+}
+#work p{
+    color: white;
+    font-size: 1em;
+;
+}
+#work h2{
+    color: white;
+    margin-top: 3%;
+}
+#workintro hr{
+    width: 30%;
+}
+#workintro p{
+    margin-bottom: 3%
+}
+#workbutton{
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+#wheader{
+    padding: 0 !important;
+}
+#workinfo{
+    margin-top: 2%;
+}
+#worktext{
+    margin-top: 3%;
+    margin-bottom: -27%;
+    background-color: rgba(0, 0, 0, 0.40);
+    padding: 1%;
+}
+#worktext p{
+    font-size: 15px;
+    color: white;
+}
+#worktext h2{
+    margin-bottom: 2%;
+    color:
+}
+
+#workfooter{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#wpic{
+    padding: 0 !important;
+}
+#work img{
+    margin-bottom: 2px;
+}
+
+#workphoto{
+    margin-top: 33%;
+    background-image: url(../img/photo/24.jpg);
+    height: 110vh;
+
+    /* make sure the image is stretched out to cover the whole viewport */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
+    background-position: center center;
+
+    background-attachment: fixed;
+}
+.workgallery{
+    padding: 0 !important;
+}
+
+#workphoto img{
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+#wpic img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+}
+#wpic img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+}
+#wpic img{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#wpic img:hover{
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    transform: scale(1.01);
+}
+/*______________________END OF WORK____________________*/
+
+#contactHeader{
+    /*background-color: rgba(0, 0, 0, 0.10);*/
+    margin-top: 6%;
+}
+#contact h1{
+    font-size: 3.5em;
+    color: rgba(0, 0, 0, 0.55);
+}
+#contact hr{
+    width: 50%;
+    background-color: white;
+    padding-top: 1px;
+}
+#email p{
+    font-size:3em;
+    text-align: center;
+}
+#messagebox{
+    background-color: #f5f5f5;
+    margin-top: 0%;
+    padding-top: 3%;
+    padding-bottom: 10%
+}
+#messagebox h2{
+    margin-bottom: 3%;
+}
+
+.contactform textarea,.contactform input{
+    width: 100%;
+    padding:1em;
+    border:1px solid #ccc;
+    margin-bottom: 1em;
+    border-radius: 0;
+    outline: none;
+}
+
+#map-canvas {
+    width: 100vw;
+    height: 65vh;
+    margin-top: 5%;
+    margin-bottom: -3%;
+}
+
+
+
+/*______________________END OF CONTACT____________________*/
+
+#subcontent{
+    background-color: #848484;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    margin-top: 3%;
+}
+#subcontent h2{
+    margin-bottom: 4%;
+    margin-left: -4%
+}
+footer{
+    background-color: #2E2E2E;
+    /* overwrite default margin, so there won't be two white bars above and below footer */
+    margin: 0;
+    /* more breathing room for the footer */
+    padding: 10% 0;
+}
+
+footer h6{
+    font-family: "helvetica neue";
+    /* thinner font weight to match the delicate visual style and subtle background color */
+    font-weight: 300;
+    color: #D8D8D8;
+}
+
+
+
+
+@media (max-width: 767.999999px) {
+    .navbar-default {
+        /*margin: 2em !important;*/
+    }
+
+    .navbar-brand{
+        margin-top: -5%;
+    }
+
+    h1{
+        font-size: 1.6em;
+        margin-top: 10%;
+    }
+
+    h3{
+        font-size: 1.2em;
+        margin-top: 10%;
+    }
+
+    .background-home {
+        height: 60vh;
+    }
+    .background-about {
+        height: 60vh;
+    }
+    .background-work {
+        height: 60vh;
+    }
+    .background-contact {
+        height: 60vh;
+    }
+
+
+    #intro-home p{
+        margin-top: 1px;
+        font-size: 0.8em;
+        color: black;
+        text-align: center;
+    }
+
+    #menupic{
+        width: 100%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+    #box1{
+        margin-bottom: 4%;
+    }
+
+
+
+    #aboutheader{
+    margin-top: 30%;
+    }
+
+    #about hr{
+        width: 70%;
+        background-color: gray;
+        padding-top: 1px;
+    }
+
+    #workheader{
+        margin-top: 20%;
+    }
+    #workheader p{
+        font-size: 0.95em;
+    }
+    #workheader hr{
+        width: 70%;
+    }
+    #work h2{
+        color: white;
+        margin-top: 3%;
+        font-size: 1.4em;
+    }
+    #worktext{
+        margin-bottom: 5%;
+    }
+    #workinfo {
+        margin-bottom: 5%;
+    }
+    #workinfo p{
+        font-size: 1em;
+    }
+
+    #contactHeader{
+    padding-top: 20%;
+    }
+    #contact hr{
+        width: 80%;
+    }
+    #map-canvas {
+        width: 100vw;
+        height: 30vh;
+        margin-top: 5%;
+        margin-bottom: -3%;
+    }
+    #email p{
+        font-size: 1.5em;
+    }
+
+}
+
