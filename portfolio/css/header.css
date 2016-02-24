@@ -1,10 +1,7 @@
-.nav-pills{
-    float: right;
-    margin-right: 5%;
+.navbar{
+    background-color: #323232;
 }
-
-.headerPic{
-    margin-top: 5%;
+.navbar-default .navbar-nav>li>a {
+    font-size: 15px;
+    color: white;
 }
-
-
