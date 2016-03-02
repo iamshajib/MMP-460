@@ -1,5 +1,5 @@
 .background-home {
-    background-image: url(../img/background/bravo2.jpg);
+    background-color: black;
     /* make sure the background image's div is the same height as viewport */
     height: 100vh;
 

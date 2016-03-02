@@ -12,3 +12,56 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 The Bootstrap CSS (and JS) can be found in the separate css, fonts, and js folders.
 Do not modify the content in those folders.
 */
+
+/*--------------------Starting of HOME-----------------*/
+.background-home {
+    background-color: black;
+    /* make sure the background image's div is the same height as viewport */
+    height: 100vh;
+
+    /* make sure the image is stretched out to cover the whole viewport */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
+    background-position: center center;
+
+    background-attachment: fixed;
+}
+
+.background-home> h1{
+    color: white;
+}
+
+.background-home> p{
+    color: white;
+}
+
+
+/*--------------------Ending of HOME-----------------*/
+
+/*--------------------Starting of About-----------------*/
+
+
+
+
+
+
+/*------------------Starting of FOOTER---------------*/
+footer{
+    background-color: #2E2E2E;
+    /* overwrite default margin, so there won't be two white bars above and below footer */
+    margin: 0;
+    /* more breathing room for the footer */
+    padding: 8% 0;
+}
+
+footer h6{
+    font-family: "helvetica neue";
+    /* thinner font weight to match the delicate visual style and subtle background color */
+    font-weight: 300;
+    color: #D8D8D8;
+}
+/*--------------------Ending of FOOTER------------------*/

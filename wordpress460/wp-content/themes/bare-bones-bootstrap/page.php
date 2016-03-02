@@ -32,7 +32,7 @@
                             <div class="col-sm-12">
 
                                 <!-- show the title as h3 element-->
-                                <?php the_title('<h3>','</h3>'); ?>
+                                <?php //the_title('<h3>','</h3>'); ?>
                             </div>
                         </div>
 
