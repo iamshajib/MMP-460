@@ -15,7 +15,7 @@ Do not modify the content in those folders.
 
 /*--------------------Starting of HOME-----------------*/
 .background-home {
-    background-color: black;
+    background-image: url(http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/backgroundHome.jpg);
     /* make sure the background image's div is the same height as viewport */
     height: 100vh;
 
@@ -32,6 +32,7 @@ Do not modify the content in those folders.
 }
 
 .background-home> h1{
+/*    margin-top: 20%;*/
     color: white;
 }
 
@@ -44,7 +45,11 @@ Do not modify the content in those folders.
 
 /*--------------------Starting of About-----------------*/
 
-
+/*
+#abouttagline{
+ margin-top: 20%;
+}
+*/
 
 
 
