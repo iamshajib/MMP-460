@@ -15,7 +15,8 @@ Do not modify the content in those folders.
 
 /*--------------------Starting of HOME-----------------*/
 .background-home {
-    background-image: url(http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/backgroundHome.jpg);
+/*    background-image: url(http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/backgroundHome.jpg);*/
+    background-color: black;
     /* make sure the background image's div is the same height as viewport */
     height: 100vh;
 

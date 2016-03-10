@@ -53,34 +53,36 @@
 <div class="background-home">
 
 
+<!--
 <h1 class="text-center name"> Mohammed Shajib</h1>
 <p class="text-center"> My Portfolio</p>
-
-<!--
-<div class="row" id="abouttagline">
-    <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-        <div class="">
-            <a href=""><h1 class="text-center">About</h1></a><hr>
-            <p class="text-center">I am an ordinary man with some unordinary dreams
-                <br>that emphasize knowledge and collaboration.</span>
-
-            </p>
-        </div>
-    </div>
-</div>
 -->
 
 </div>
 
-            <div class="container">
-                <h1 class="text-center">Home</h1>
-                <div class="row">
-                    <div class="text-center">
+            <div class="container-fluid">
 
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+
+
+
+
+
+        <div class="row" style="background-color: #f0f0f0">
+
+                  <div class="col-md-7 col-lg-7" style="margin-top:5%; margin-bottom:5%;">
+                      <img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-intro2.png" alt="home-intro">
+
+                  </div>
+
+                    <div class="col-md-5 col-lg-5" style="margin-top:5%; margin-bottom:5%;">
+                    <h1> Mohammed Shajib</h1>
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
 
                     </div>
-                </div>
+
+                 </div>
+
+
                 <div class="row" style="margin-top: 3%; margin-left: 7%;">
 
 
@@ -144,12 +146,6 @@ $the_query = new WP_Query( array( 'cat' => 4 ) ); ?>
                     </div>
                 </div>
             </div>
-            <!-- end row-->
-
-
-
-
-
         <!-- end container-->
 
 
