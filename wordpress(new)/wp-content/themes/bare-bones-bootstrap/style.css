@@ -8,48 +8,70 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+
 /*
 The Bootstrap CSS (and JS) can be found in the separate css, fonts, and js folders.
 Do not modify the content in those folders.
 */
 
+
 /*--------------------Starting of HOME-----------------*/
+
 .background-home {
-/*    background-image: url(http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/backgroundHome.jpg);*/
+    /*    background-image: url(http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/backgroundHome.jpg);*/
     background-color: black;
     /* make sure the background image's div is the same height as viewport */
     height: 100vh;
-
     /* make sure the image is stretched out to cover the whole viewport */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
     background-position: center center;
-
     background-attachment: fixed;
 }
 
-.background-home> h1{
-/*    margin-top: 20%;*/
+#home-description{
+    background-color: #f0f0f0;
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+.bal{
+    margin-top: 6%;
+}
+
+#writing h1{
+    color: dimgrey;
+    font-family: 'Satisfy', cursive;
+    font-weight: 200;
+}
+
+#writing p{
+    width: 70%;
+    color: lightslategray;;
+    line-height: 200%;
+}
+
+.background-home> h1 {
+    /*    margin-top: 20%;*/
     color: white;
 }
 
-.background-home> p{
+.background-home> p {
     color: white;
 }
 
-
-.home-featured{
+.home-featured {
     margin-top: 3%;
 }
 
 
 /*--------------------Ending of HOME-----------------*/
 
+
 /*--------------------Starting of About-----------------*/
+
 
 /*
 #abouttagline{
@@ -58,10 +80,9 @@ Do not modify the content in those folders.
 */
 
 
-
-
 /*------------------Starting of FOOTER---------------*/
-footer{
+
+footer {
     background-color: #2E2E2E;
     /* overwrite default margin, so there won't be two white bars above and below footer */
     margin: 0;
@@ -69,10 +90,12 @@ footer{
     padding: 8% 0;
 }
 
-footer h6{
+footer h6 {
     font-family: "helvetica neue";
     /* thinner font weight to match the delicate visual style and subtle background color */
     font-weight: 300;
     color: #D8D8D8;
 }
+
+
 /*--------------------Ending of FOOTER------------------*/
