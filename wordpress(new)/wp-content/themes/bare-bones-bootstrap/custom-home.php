@@ -64,7 +64,7 @@
 
             <div class="row" id="home-description">
 
-                <div class="col-md-7 col-lg-7 bal" style="">
+                <div class="col-md-7 col-lg-7" id="intro-img" style="">
                     <img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-intro2.png" alt="home-intro" width="600" height="400" >
 
                 </div>
@@ -86,9 +86,9 @@
 
             <div class="row" style="margin-top: 3%; margin-bottom: 3%">
 
-                <div class="text-center">
-                    <h2> My Works</h2>
-                    <h3> Class works</h3>
+                <div class="text-center" id="home-works-intro">
+                    <h1> My latest works</h1>
+                    <h4> class & outside</h4>
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-12 home-featured">
@@ -107,7 +107,7 @@
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-12 home-featured">
-                    <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/08/home-featured-1/"><img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-work4.jpg" alt="" /> </a>
+                    <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/08/home-featured-1/"><img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-work4-1.jpg" alt="" /> </a>
 
                 </div>
 
