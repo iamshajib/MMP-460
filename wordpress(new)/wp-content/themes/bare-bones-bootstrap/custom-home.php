@@ -62,11 +62,6 @@
 
             <div class="container-fluid">
 
-
-
-
-
-
         <div class="row" style="background-color: #f0f0f0">
 
                   <div class="col-md-7 col-lg-7" style="margin-top:5%; margin-bottom:5%;">
@@ -80,59 +75,47 @@
 
                     </div>
 
-                 </div>
-
-
-                <div class="row" style="margin-top: 3%;">
-
-
-<!--  *******************Query Post********************  -->
-                    <div class="col-md-4 col-lg-4">
-
-                        <?php
-// the query
-$the_query = new WP_Query( array( 'cat' => 4 ) ); ?>
-
-                            <?php if ( $the_query->have_posts() ) : ?>
-
-                                <!-- pagination here -->
-
-                                <!-- the loop -->
-                                <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                                    <!-- check if the post has a Post Thumbnail assigned to it. -->
-                                    <?php if ( has_post_thumbnail() ) : ?>
-                                        <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-                                            <?php  the_post_thumbnail( 'post-medium', array( 'class' => 'img-responsive' ) );?>
-                                        </a>
-                                        <?php endif; ?>
-                                            <?php endwhile; ?>
-                                                <!-- end of the loop -->
-
-                                                <!-- pagination here -->
-
-                                                <?php wp_reset_postdata(); ?>
-
-                                                    <?php else : ?>
-                                                        <p>
-                                                            <?php _e( 'Sorry, no posts matched your criteria.' ); ?>
-                                                        </p>
-                                                        <?php endif; ?>
-                                                            <!--         *******************End of Query Post********************      -->
-
-
-                    </div>
-
-
-
-                    <div class="col-md-4 col-lg-4"><img class="img-responsive" src="http://placehold.it/200x150" alt="" /></div>
-                    <div class="col-md-4 col-lg-4"><img class="img-responsive" src="http://placehold.it/200x150" alt="" /></div>
-
-                </div>
-
+                 </div> <!-- end row-->
 
             </div> <!-- end container-->
 
 
+<div class="container">
+
+    <div class="row" style="margin-top: 3%;">
+
+        <div class="text-center">
+            <h2> My Works</h2>
+            <h3> Class works</h3>
+        </div>
+
+         <div class="col-sm-12 col-md-12 col-lg-12 home-featured">
+             <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/08/home-featured-1/"><img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-work2.jpg" alt="" /> </a>
+
+            </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-12 home-featured">
+             <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/08/home-featured-1/"><img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-work1.jpg" alt="" /> </a>
+
+            </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-12 home-featured">
+             <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/08/home-featured-1/"><img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-work3-2.jpg" alt="" /> </a>
+
+            </div>
+
+                  <div class="col-sm-12 col-md-12 col-lg-12 home-featured">
+             <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/08/home-featured-1/"><img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-work4.jpg" alt="" /> </a>
+
+            </div>
+
+
+
+
+
+    </div> <!-- end row-->
+
+</div><!-- end container-->
 
 
 
