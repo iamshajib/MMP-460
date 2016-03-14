@@ -27,7 +27,7 @@ Do not modify the content in those folders.
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
+
     background-position: center center;
     background-attachment: fixed;
 }
@@ -67,13 +67,33 @@ Do not modify the content in those folders.
 
 
 
-.background-home> h1 {
-    /*    margin-top: 20%;*/
+#background-home-text {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 30%;
     color: white;
 }
-
-.background-home> p {
+#background-home-text h1{
+    font-weight: bold;
+    font-size: 6em;
+    font-family: 'Raleway', sans-serif;
+}
+#background-home-text hr{
     color: white;
+    height: 20px;
+    margin-top: -10px;
+}
+#background-home-text h2{
+    margin-top: -40px;
+    font-size: 5em;
+    font-family: 'Courgette', cursive;
+}
+#background-home-text p{
+    color: dimgray;
+    margin-top: -30px;
+}
+#background-home-text samp{
+    color: black;
 }
 
 .home-featured {
@@ -101,7 +121,7 @@ footer {
     /* overwrite default margin, so there won't be two white bars above and below footer */
     margin: 0;
     /* more breathing room for the footer */
-    padding: 8% 0;
+    padding: 5% 0;
 }
 
 footer h6 {

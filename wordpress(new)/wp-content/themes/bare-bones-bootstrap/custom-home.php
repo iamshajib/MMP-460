@@ -52,20 +52,31 @@
 
         <div class="background-home">
 
+            <div id="background-home-text">
 
-            <!--
-<h1 class="text-center name"> Mohammed Shajib</h1>
-<p class="text-center"> My Portfolio</p>
--->
+                <h1> BELIEVE IN</h1>
+                <hr>
+                <h2 class="text-center">what you know </h2>
+                <hr>
+                <p class="text-center">HTML <samp>-</samp> | <samp>-</samp> CSS <samp>-</samp> | <samp>-</samp> JAVASCRIPT<samp>-</samp> |<samp>-</samp> ANIMATION<samp>-</samp> |<samp>-</samp> DESIGN <br> <br> <br>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+
+
+
+                </p>
+            </div>
 
         </div>
+        <!--end of background-->
+
+
 
         <div class="container-fluid">
 
             <div class="row" id="home-description">
 
                 <div class="col-md-7 col-lg-7" id="intro-img" style="">
-                    <img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-intro2.png" alt="home-intro" width="600" height="400" >
+                    <img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-intro.png" alt="home-intro" width="600" height="400">
 
                 </div>
 
