@@ -27,12 +27,11 @@ Do not modify the content in those folders.
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     background-position: center center;
     background-attachment: fixed;
 }
 
-#home-description{
+#home-description {
     background-color: #f0f0f0;
     padding-top: 5%;
     padding-bottom: 8%;
@@ -43,29 +42,26 @@ Do not modify the content in those folders.
     margin-left: 7%;
 }
 
-#writing h1{
+#writing h1 {
     color: #b09e82;
     font-family: 'Satisfy', cursive;
     font-weight: 200;
 }
 
-#writing p{
+#writing p {
     width: 70%;
     color: dimgray;
     line-height: 200%;
 }
 
-#home-works-intro h1{
+#home-works-intro h1 {
     font-family: 'Kaushan Script', cursive;
     color: #b09e82;
 }
-#home-works-intro h4{
+
+#home-works-intro h4 {
     color: dimgray;
 }
-
-
-
-
 
 #background-home-text {
     position: absolute;
@@ -73,31 +69,43 @@ Do not modify the content in those folders.
     margin-left: 30%;
     color: white;
 }
-#background-home-text h1{
+
+#background-home-text h1 {
     font-weight: bold;
     font-size: 6em;
     font-family: 'Raleway', sans-serif;
 }
-#background-home-text hr{
+
+#background-home-text hr {
     color: white;
     height: 20px;
     margin-top: -10px;
 }
-#background-home-text h2{
+
+#background-home-text h2 {
     margin-top: -40px;
     font-size: 5em;
     font-family: 'Courgette', cursive;
 }
-#background-home-text p{
+
+#background-home-text p {
     color: dimgray;
     margin-top: -30px;
 }
-#background-home-text samp{
+
+#background-home-text samp {
     color: black;
 }
 
 .home-featured {
     margin-top: 3%;
+}
+
+
+.before-footrer{
+    background-color: #f6f5f5;
+    width: 100px;
+
 }
 
 
@@ -117,7 +125,7 @@ Do not modify the content in those folders.
 /*------------------Starting of FOOTER---------------*/
 
 footer {
-    background-color: #2E2E2E;
+    background-color: #b09e82;
     /* overwrite default margin, so there won't be two white bars above and below footer */
     margin: 0;
     /* more breathing room for the footer */
@@ -128,8 +136,125 @@ footer h6 {
     font-family: "helvetica neue";
     /* thinner font weight to match the delicate visual style and subtle background color */
     font-weight: 300;
-    color: #D8D8D8;
+    color: dimgray;
 }
 
 
 /*--------------------Ending of FOOTER------------------*/
+
+
+/*-------------------------mouse scroll-------------------*/
+
+@-moz-keyframes scroll-ani {
+    0% {
+        opacity: 1;
+        top: 29%;
+    }
+    15% {
+        opacity: 1;
+        top: 50%;
+    }
+    50% {
+        opacity: 0;
+        top: 50%;
+    }
+    100% {
+        opacity: 0;
+        top: 29%;
+    }
+}
+
+@keyframes scroll-ani {
+    0% {
+        opacity: 1;
+        top: 29%;
+    }
+    15% {
+        opacity: 1;
+        top: 50%;
+    }
+    50% {
+        opacity: 0;
+        top: 50%;
+    }
+    100% {
+        opacity: 0;
+        top: 29%;
+    }
+}
+
+
+/*Mouse & Message Styles*/
+
+
+/*The Scroll Link*/
+
+.mouse-scroll {
+    display: inline-block;
+    line-height: 18px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #7F8C8D;
+    color: #FFF;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    margin-top: 5%;
+    margin-left: 45%;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+
+/*  The Mouse*/
+
+.mouse {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 35px;
+    margin: 0 auto 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid dimgray;
+    border-radius: 23px;
+}
+
+
+/*     Scroll Indicator*/
+
+.mouse-movement {
+    position: absolute;
+    display: block;
+    top: 29%;
+    left: 55%;
+    width: 5px;
+    height: 5px;
+    margin: -4px 0 0 -4px;
+    background: dimgray;
+    border-radius: 50%;
+    -webkit-animation: scroll-ani 4s linear infinite;
+    -moz-animation: scroll-ani 4s linear infinite;
+    animation: scroll-ani 4s linear infinite;
+}
+
+
+/*  The Scroll Message*/
+
+.mouse-message {
+    float: left;
+    margin: -200px 0 0 7px;
+    padding: 0;
+    -webkit-animation: scroll-ani 4s linear infinite;
+    -moz-animation: scroll-ani 4s linear infinite;
+    animation: scroll-ani 4s linear infinite;
+}
+
+
+/*  shown on Hover of The Mouse*/
+
+&:hover {}
+
+.mouse-message {
+    margin-top: 0;
+}
