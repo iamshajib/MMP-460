@@ -33,6 +33,34 @@ p{
     background-attachment: fixed;
 }
 
+#background-home-text {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 30%;
+    color: white;
+}
+
+#background-home-text h1 {
+    font-weight: bold;
+    font-size: 6em;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: underline;
+}
+#background-home-text h2 {
+/*    margin-top: -40px;*/
+    font-size: 5em;
+    font-family: 'Courgette', cursive;
+    text-decoration: underline;
+}
+
+#background-home-text p {
+    color: dimgray;
+/*    margin-top: -30px;*/
+}
+
+#background-home-text samp {
+    color: black;
+}
 
 #home-description {
     background-color: #f0f0f0;
@@ -65,41 +93,6 @@ p{
 #home-works-intro h4 {
     color: dimgray;
 }
-
-#background-home-text {
-    position: absolute;
-    margin-top: 10%;
-    margin-left: 30%;
-    color: white;
-}
-
-#background-home-text h1 {
-    font-weight: bold;
-    font-size: 6em;
-    font-family: 'Raleway', sans-serif;
-}
-
-#background-home-text hr {
-    color: white;
-    height: 20px;
-    margin-top: -10px;
-}
-
-#background-home-text h2 {
-    margin-top: -40px;
-    font-size: 5em;
-    font-family: 'Courgette', cursive;
-}
-
-#background-home-text p {
-    color: dimgray;
-    margin-top: -30px;
-}
-
-#background-home-text samp {
-    color: black;
-}
-
 .home-featured {
     margin-top: 3%;
 }
@@ -126,6 +119,8 @@ p{
 .before-footrer{
     background-color: #f6f5f5;
     width: 100px;
+}
+#scroll{
 
 }
 
@@ -289,7 +284,7 @@ footer h6 {
     color: #FFF;
     font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
-    margin-top: 5%;
+    margin-top: 70%;
     margin-left: 45%;
     text-decoration: none;
     overflow: hidden;
