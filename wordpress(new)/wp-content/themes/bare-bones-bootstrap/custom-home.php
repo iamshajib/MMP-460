@@ -52,7 +52,9 @@
 
         <div class="background-home">
 
-            <div id="background-home-text">
+            <div class="row" id="background-home-text">
+
+                <div class="col-sm-12 col-md-12 com-lg-12">
 
                 <h1> BELIEVE IN</h1>
                 <hr>
@@ -69,7 +71,7 @@
   </span>
   <span class="mouse-message fadeIn">scroll</span>
 </a>
-
+            </div>
 
             </div>
 
@@ -113,21 +115,30 @@
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-12 home-featured">
+                    <h1>Web Design</h1>
+                    <p>HTML, CSS, JavaScript <br>
+                    Bootstrap, P5JS</p>
                     <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/08/home-featured-1/"><img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-work2.jpg" alt="" /> </a>
 
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-12 home-featured">
+                    <h1> Animation</h1>
+                    <p>Adobe Flash & After Effect</p>
                     <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/08/home-featured-1/"><img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-work1.jpg" alt="" /> </a>
 
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-12 home-featured">
+                    <h1>Game</h1>
+                    <p>JavScript, P5JS</p>
                     <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/08/home-featured-1/"><img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-work3-2.jpg" alt="" /> </a>
 
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-12 home-featured">
+                    <h1>Graphis</h1>
+                    <p>Adobe Photoshop, <br>Illustrator, inDesign</p>
                     <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/08/home-featured-1/"><img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-work4-1.jpg" alt="" /> </a>
 
                 </div>

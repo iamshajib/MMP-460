@@ -16,7 +16,9 @@ Do not modify the content in those folders.
 
 
 /*--------------------Starting of HOME-----------------*/
-
+p{
+    font-family: 'Raleway', sans-serif;
+}
 .background-home {
     /*    background-image: url(http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/backgroundHome.jpg);*/
     background-color: black;
@@ -30,6 +32,7 @@ Do not modify the content in those folders.
     background-position: center center;
     background-attachment: fixed;
 }
+
 
 #home-description {
     background-color: #f0f0f0;
@@ -100,7 +103,25 @@ Do not modify the content in those folders.
 .home-featured {
     margin-top: 3%;
 }
-
+.home-featured h1 {
+    position: absolute;
+    color: white;
+/*    font-weight: bold;*/
+    font-size: 4em;
+    margin-left: 2%;
+    font-family: 'Courgette', cursive;
+    text-decoration: underline;
+}
+.home-featured p {
+    position: absolute;
+    color: white;
+/*    font-weight: bold;*/
+    font-size: 2em;
+    margin-left: 2%;
+    margin-top: 8%;
+/*    font-family: 'Courgette', cursive;*/
+    text-decoration: underline;
+}
 
 .before-footrer{
     background-color: #f6f5f5;
@@ -114,13 +135,83 @@ Do not modify the content in those folders.
 
 /*--------------------Starting of About-----------------*/
 
+#background-about {
+    background-image: url(http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/background.jpg);
+    /* make sure the background image's div is the same height as viewport */
+    height: 100vh;
 
-/*
-#abouttagline{
- margin-top: 20%;
+    /* make sure the image is stretched out to cover the whole viewport */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
+    background-position: center center;
+
+    background-attachment: fixed;
 }
-*/
 
+#aboutheader{
+    margin-top: 1%;
+    /*background-color: rgba(0, 0, 0, 0.30);*/
+}
+
+#aboutheader h2{
+    font-family: 'Kaushan Script', cursive;
+    color: #b09e82;
+    font-size: 3em;
+}
+#aboutheader hr{
+    width: 20%;
+    background-color: #b09e82;
+    padding-top: 1px;
+}
+#aboutheader p{
+    /*color: black;*/
+    font-size: 1.2em;
+}
+
+#abouttext1{
+    margin-top: 2%
+}
+
+#aboutpic1{
+    margin-top: 5%;
+    background-image: url(http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/about-middle.jpg);
+    height: 55vh;
+
+    /* make sure the image is stretched out to cover the whole viewport */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
+    background-position: center center;
+
+    background-attachment: fixed;
+}
+#aboutmiddle{
+    margin-top: 5%;
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.40);
+}
+#aboutmiddle h4{
+    font-size: 1.5em;
+    color: white;
+}
+#aboutmiddle p{
+    color: white;
+}
+#abouttext2{
+    margin-top: 5%;
+}
+
+#abouttext2 h2{
+    text-align: center;
+    margin-bottom: 5%;
+}
 
 /*------------------Starting of FOOTER---------------*/
 
