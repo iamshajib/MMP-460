@@ -50,6 +50,9 @@
 
 
 
+<div class="wrapper">
+
+
         <div class="background-home">
 
             <div class="row" id="background-home-text">
@@ -165,6 +168,6 @@
             </div>
         </div>
 
-
+</div>   <!-- end of wrapper -->
 
         <?php get_footer(); ?>
