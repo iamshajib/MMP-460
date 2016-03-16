@@ -128,7 +128,7 @@
                     <h1>Web Design</h1>
                     <p>HTML, CSS, JavaScript
                         <br> Bootstrap, P5JS</p>
-                    <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/08/web-projects/" target="_blank"><img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-work2.jpg" alt="" /> </a>
+                    <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/08/web-projects/" target="_blank"><img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/experiment-img.jpg" alt="" /> </a>
 
                 </div>
 

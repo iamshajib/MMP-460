@@ -217,7 +217,7 @@ p {
 /*------------------Starting of FOOTER---------------*/
 
 footer {
-    background-color: #b09e82;
+    background-color: #2e2e2e;
     /* overwrite default margin, so there won't be two white bars above and below footer */
     margin: 0;
     /* more breathing room for the footer */
