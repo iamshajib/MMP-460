@@ -114,6 +114,46 @@
                     <h4> class & outside</h4>
                 </div>
 
+
+                <div class="col-sm-12 col-md-12 col-lg-12 home-featured">
+
+
+                                            <?php
+// the query
+$the_query = new WP_Query( array( 'cat' => 4 ) ); ?>
+
+                            <?php if ( $the_query->have_posts() ) : ?>
+
+                                <!-- pagination here -->
+
+                                <!-- the loop -->
+                                <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                                    <!-- check if the post has a Post Thumbnail assigned to it. -->
+                                    <?php if ( has_post_thumbnail() ) : ?>
+                                        <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+                                            <?php  the_post_thumbnail( 'post-medium', array( 'class' => 'img-responsive' ) );?>
+                                        </a>
+                                        <?php endif; ?>
+                                            <?php endwhile; ?>
+                                                <!-- end of the loop -->
+
+                                                <!-- pagination here -->
+
+                                                <?php wp_reset_postdata(); ?>
+
+                                                    <?php else : ?>
+                                                        <p>
+                                                            <?php _e( 'Sorry, no posts matched your criteria.' ); ?>
+                                                        </p>
+                                                        <?php endif; ?>
+                                                            <!--         *******************End of Query Post********************      -->
+
+
+                </div>
+
+
+
+
                 <div class="col-sm-12 col-md-12 col-lg-12 home-featured">
                     <h1>Web Design</h1>
                     <p>HTML, CSS, JavaScript <br>
