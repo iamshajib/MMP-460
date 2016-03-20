@@ -53,7 +53,7 @@
 <div class="wrapper">
 
 
-        <div class="background-home">
+        <div class="container-fluid background-home">
 
             <div class="row" id="background-home-text">
 
