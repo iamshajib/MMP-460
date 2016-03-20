@@ -119,14 +119,14 @@
 
 </div>
 
-<div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(40.7127837,-74.00594130000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.7127837,-74.00594130000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>New York, USA<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(40.7127837,-74.00594130000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.7127837,-74.00594130000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>New York, USA<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 
 
 
-</div> <!-- end of main div -->
+</div> <!-- end of 1st container-fluid -->
 
 <div class="container-fluid" id="contact-body">
-<!--    <h1 class="text-center"> Write to Me </h1>-->
+<!--    -->
 
               <div id="messagebox" class="spacer">
                 <div class="container contactform center">
@@ -149,7 +149,7 @@
           </div>
           </div>
 
-</div>
+</div> <!-- end of 2nd container-fluid -->
 
 
         <?php get_footer(); ?>
