@@ -125,7 +125,7 @@
                 </div>
 
 
-                <div class="col-sm-12 col-md-12 col-lg-12 home-featured">
+                <div class="col-sm-12 col-md-12 col-lg-12 home-featured" style="margin-bottom: 5%;">
 
 
                                             <?php
@@ -141,7 +141,7 @@ $the_query = new WP_Query( array( 'cat' => 4 ) ); ?>
                                     <!-- check if the post has a Post Thumbnail assigned to it. -->
                                     <?php if ( has_post_thumbnail() ) : ?>
                                         <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-                                            <?php  the_post_thumbnail( 'post-medium', array( 'class' => 'img-responsive' ) );?>
+                                            <?php  the_post_thumbnail( 'post-featured', array( 'class' => 'img-responsive' ) );?>
                                         </a>
                                         <?php endif; ?>
                                             <?php endwhile; ?>
