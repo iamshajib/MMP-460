@@ -3,9 +3,10 @@
 
 
 <!--  *******************Query Post********************  -->
-                    <div class="col-md-4 col-lg-4">
+                  
+                <div class="col-sm-12 col-md-12 col-lg-12" id="query-post">
 
-                        <?php
+                                            <?php
 // the query
 $the_query = new WP_Query( array( 'cat' => 4 ) ); ?>
 
@@ -18,7 +19,7 @@ $the_query = new WP_Query( array( 'cat' => 4 ) ); ?>
                                     <!-- check if the post has a Post Thumbnail assigned to it. -->
                                     <?php if ( has_post_thumbnail() ) : ?>
                                         <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-                                            <?php  the_post_thumbnail( 'post-medium', array( 'class' => 'img-responsive' ) );?>
+                                            <?php  the_post_thumbnail( 'post-featured', array( 'class' => 'img-responsive' ) );?>
                                         </a>
                                         <?php endif; ?>
                                             <?php endwhile; ?>
@@ -33,11 +34,11 @@ $the_query = new WP_Query( array( 'cat' => 4 ) ); ?>
                                                             <?php _e( 'Sorry, no posts matched your criteria.' ); ?>
                                                         </p>
                                                         <?php endif; ?>
-                                                            <!--         *******************End of Query Post********************      -->
 
 
-                    </div>
 
+                </div>
+                <!--***********End of Query Post******-->
 
 
                     <div class="col-md-4 col-lg-4"><img class="img-responsive" src="http://placehold.it/200x150" alt="" /></div>
