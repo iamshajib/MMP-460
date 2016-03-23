@@ -13,25 +13,25 @@
 
                 <div class="col-md-7 col-lg-7" id="contact-red">
 
-                    <ul class="list-inline">
+                    <ul class="list-inline" style="margin-left: 5%">
                         <li>
-                            <a href="" target="_blank"><i class="fa fa-linkedin-square fa-4x" style="color: #0077b5;"></i> </a>
+                            <a href="" target="_blank"><i class="fa fa-linkedin-square fa-4x" style="color: white;"></i> </a>
                         </li>
 
                         <li>
-                            <a href="" target="_blank"><i class="fa fa-youtube-square fa-4x" style="color: #cc181e;"></i> </a>
+                            <a href="" target="_blank"><i class="fa fa-youtube-square fa-4x" style="color: white;"></i> </a>
                         </li>
 
                         <li>
-                            <a href="" target="_blank"><i class="fa fa-skype fa-4x" style="color: #01a3e1;"></i> </a>
+                            <a href="" target="_blank"><i class="fa fa-skype fa-4x" style="color: white;"></i> </a>
                         </li>
 
                         <li>
-                            <a href="" target="_blank"><i class="fa fa-soundcloud fa-4x" style="color: #ff3701;"></i> </a>
+                            <a href="" target="_blank"><i class="fa fa-soundcloud fa-4x" style="color: white;"></i> </a>
                         </li>
 
                         <li>
-                            <a href="" target="_blank"><i class="fa fa-google-plus fa-4x" style="color: #db4639;"></i> </a>
+                            <a href="" target="_blank"><i class="fa fa-google-plus fa-4x" style="color: white;"></i> </a>
                         </li>
 
                     </ul>
@@ -71,8 +71,8 @@
 
             <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
 
-            <div style="overflow:hidden;height:55%;width:100%;">
-                <div id="gmap_canvas" style="height:55%;width:100%;">
+            <div style="overflow:hidden;height:70%;width:100%;">
+                <div id="gmap_canvas" style="height:70%;width:100%;">
 
                 </div>
 

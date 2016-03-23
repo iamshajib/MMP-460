@@ -56,7 +56,8 @@
 
                 <div class="col-sm-12 col-md-5 col-lg-5" id="writing" style="">
                     <h1>Portfolio of <br> Mohammed Shajib</h1>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <p>
+This is going to be my own portfolio, where I'll put some of my own works. Including my class works, and the works I have done from my passion. Instate of making a website for someone else I thought I better make my own to keep my works all together in cloud. That will be one of the secure ways to keep my work for future references. And most importantly as a multimedia student I am going to need a portfolio in future. It will be an easier way to show my works to others. <span class="hidden-xs">Also share it if somebody needs. That’s how my audience and me will also get benefit from it. Right now my intended audience will be my classmate and my friends.</p>
 
                 </div>
 

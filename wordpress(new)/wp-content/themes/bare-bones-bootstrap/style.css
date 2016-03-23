@@ -142,7 +142,7 @@ p {
 #background-about {
     background-image: url(http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/background.jpg);
     /* make sure the background image's div is the same height as viewport */
-    height: 100vh;
+    height: 65vh;
     /* make sure the image is stretched out to cover the whole viewport */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -162,10 +162,11 @@ p {
     font-family: 'Kaushan Script', cursive;
     color: #b09e82;
     font-size: 3em;
+/*    text-decoration: underline;*/
 }
 
 #aboutheader hr {
-    width: 20%;
+    width: 12%;
     background-color: #b09e82;
     padding-top: 1px;
 }
@@ -182,7 +183,7 @@ p {
 #aboutpic1 {
     margin-top: 5%;
     background-image: url(http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/about-middle.jpg);
-    height: 55vh;
+    height: 45vh;
     /* make sure the image is stretched out to cover the whole viewport */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -409,8 +410,8 @@ footer h6 {
     color: #FFF;
     font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
-    margin-top: 70%;
-    margin-left: 45%;
+    margin-top: 20%;
+    margin-left: 50%;
     text-decoration: none;
     overflow: hidden;
 }
@@ -437,8 +438,8 @@ footer h6 {
 .mouse-movement {
     position: absolute;
     display: block;
-    top: 10%;
-    left: 55%;
+    top: 50%;
+    left: 65%;
     width: 5px;
     height: 5px;
     margin: -4px 0 0 -4px;
@@ -469,3 +470,9 @@ footer h6 {
 .mouse-message {
     margin-top: 0;
 }
+
+/*****************posts*****************/
+/*
+#web-p{
+    margin-top: 50%;
+}*/
