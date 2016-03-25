@@ -37,28 +37,28 @@ p {
 
 #background-home-text {
 /*    position: absolute;*/
-    margin-top: 20%;
+    margin-top: 17%;
 /*    margin-left: 30%;*/
     color: white;
 }
 
 #background-home-text h1 {
     font-weight: bold;
-    font-size: 6em;
+    font-size: 5em;
     font-family: 'Raleway', sans-serif;
     text-decoration: underline;
 }
 
 #background-home-text h2 {
     /*    margin-top: -40px;*/
-    font-size: 5em;
+    font-size: 4em;
     font-family: 'Courgette', cursive;
     text-decoration: underline;
 }
 
 #background-home-text p {
     color: dimgray;
-    /*    margin-top: -30px;*/
+        margin-top: 2%;
 }
 
 #background-home-text samp {
