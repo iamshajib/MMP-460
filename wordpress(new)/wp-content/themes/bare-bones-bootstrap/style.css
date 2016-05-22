@@ -37,7 +37,7 @@ p {
 
 #background-home-text {
 /*    position: absolute;*/
-    margin-top: 17%;
+    margin-top: 15%;
 /*    margin-left: 30%;*/
     color: white;
 }
@@ -55,6 +55,9 @@ p {
     font-family: 'Courgette', cursive;
     text-decoration: underline;
 }
+#background-home-text a{
+	text-decoration: none;
+}
 
 #background-home-text p {
     color: dimgray;
@@ -67,8 +70,8 @@ p {
 
 #home-description {
     background-color: #f0f0f0;
-    padding-top: 5%;
-    padding-bottom: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 #intro-img img {
@@ -97,6 +100,10 @@ p {
     color: dimgray;
 }
 
+#home-work{
+    background-color: mediumvioletred;
+}
+
 .home-featured {
     margin-top: 3%;
 }
@@ -108,7 +115,7 @@ p {
     font-size: 4em;
     margin-left: 2%;
     font-family: 'Courgette', cursive;
-    text-decoration: underline;
+/*    text-decoration: underline;*/
 }
 
 .home-featured p {
@@ -120,6 +127,34 @@ p {
     margin-top: 8%;
     /*    font-family: 'Courgette', cursive;*/
     text-decoration: underline;
+}
+.home-featured img{
+     filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+}
+.home-featured img:hover{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+}
+
+.home-featured img{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.home-featured img:hover{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .before-footrer {
@@ -410,8 +445,8 @@ footer h6 {
     color: #FFF;
     font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
-    margin-top: 20%;
-    margin-left: 50%;
+    margin-top: 7%;
+    margin-left: 47%;
     text-decoration: none;
     overflow: hidden;
 }
