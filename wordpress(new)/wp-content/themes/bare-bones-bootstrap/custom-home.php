@@ -77,31 +77,27 @@
              <div class="row" style="margin-bottom: 2%" id="home-work">
 
                 <div class="col-sm-12 col-md-6 col-lg-6 home-featured">
-                     <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/08/web-projects/">
-                    <h1>Web Design</h1>
-                   <img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-work2.jpg" alt="" />
+                     <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/08/web-design/">
+                   <img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/05/work1.jpg" alt="" />
                     </a>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-6 home-featured">
-                     <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/02/24/game/">
-                    <h1>Programming</h1>
-                   <img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-work3-2.jpg" alt="" />
+                     <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/02/24/programming/">
+                   <img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/05/work2.jpg" alt="" />
                     </a>
                 </div>
 
 
                 <div class="col-sm-12 col-md-6 col-lg-6 home-featured">
                      <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/15/animations/">
-                    <h1> Animation</h1>
-                   <img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-work1.jpg" alt="" />
+                   <img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/05/work3.jpg" alt="" />
                     </a>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-6 home-featured">
-                    <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/15/graphis/">
-                    <h1>Design</h1>
-                    <img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/03/home-work4-1.jpg" alt="" />
+                    <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/15/design/">
+                    <img class="img-responsive" src="http://portfolio.bmcc.is/mohammed.shajib/wp-content/uploads/2016/05/work4.jpg" alt="" />
                     </a>
                 </div>
 

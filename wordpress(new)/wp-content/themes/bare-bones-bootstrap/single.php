@@ -35,7 +35,7 @@
                             <div class="col-xs-12 col-sm-8">
 
                                 <!-- show the title as h3 element-->
-                                <?php the_title('<h3>','</h3>'); ?>
+                                <!--php the_title('<h1>','</h1>'); -->
                             </div>
                             <div class="col-xs-12 col-sm-4">
                                 <div class="prev-next">

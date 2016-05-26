@@ -15,6 +15,14 @@ Do not modify the content in those folders.
 */
 
 
+/*
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: #2e2e2e;
+}
+*/
+
+
+
 /*--------------------Starting of HOME-----------------*/
 
 p {
@@ -101,46 +109,12 @@ p {
 }
 
 #home-work{
-    background-color: mediumvioletred;
+    padding-bottom: 1%;
+    background-color: #f0f0f0;
 }
 
 .home-featured {
-    margin-top: 3%;
-}
-
-.home-featured h1 {
-    position: absolute;
-    color: white;
-    /*    font-weight: bold;*/
-    font-size: 4em;
-    margin-left: 2%;
-    font-family: 'Courgette', cursive;
-/*    text-decoration: underline;*/
-}
-
-.home-featured p {
-    position: absolute;
-    color: white;
-    /*    font-weight: bold;*/
-    font-size: 2em;
-    margin-left: 2%;
-    margin-top: 8%;
-    /*    font-family: 'Courgette', cursive;*/
-    text-decoration: underline;
-}
-.home-featured img{
-     filter: grayscale(0);
-    -webkit-filter: grayscale(0);
-    -moz-filter: grayscale(0);
-    -o-filter: grayscale(0);
-    -ms-filter: grayscale(0);
-}
-.home-featured img:hover{
-    filter: grayscale(1);
-    -webkit-filter: grayscale(1);
-    -moz-filter: grayscale(1);
-    -o-filter: grayscale(1);
-    -ms-filter: grayscale(1);
+    margin-top: 1%;
 }
 
 .home-featured img{
@@ -337,6 +311,22 @@ footer h6 {
 
 /*--------------------Ending of FOOTER------------------*/
 
+/*--------------------Post------------------*/
+
+/*
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    margin-top: 30px;
+}
+*/
+#myCarousel {
+    background-color: #e8e8e8;
+}
+..carousel-inner> h1{
+/*    text-decoration: none;*/
+    color: blak;
+}
+
+/*--------------------Ending of Posts------------------*/
 
 /*-------------------------media queries-------------------*/
 
@@ -505,9 +495,3 @@ footer h6 {
 .mouse-message {
     margin-top: 0;
 }
-
-/*****************posts*****************/
-/*
-#web-p{
-    margin-top: 50%;
-}*/
