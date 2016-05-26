@@ -328,9 +328,21 @@ footer h6 {
 #myCarousel {
     background-color: #e8e8e8;
 }
-..carousel-inner> h1{
+.carousel-inner> h1{
 /*    text-decoration: none;*/
-    color: blak;
+    color: black
+        .caption {
+    position: relative;
+    top: 0.5em;
+    left: 0;
+    width: 100%;
+};
+}
+.caption {
+    position: relative;
+    top: 0.5em;
+    left: 0;
+    width: 100%;
 }
 
 /*--------------------Ending of Posts------------------*/
