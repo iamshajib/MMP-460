@@ -13,6 +13,7 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <!-- *********google fonts*********-->
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
@@ -46,10 +47,17 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+
+<!--
           <a class="navbar-brand" href="<?php echo home_url(); ?>">
-                    <?php bloginfo('name'); ?>
+                    php bloginfo('name');
                 </a>
-        </div>
+-->
+            <a href="">
+          <img class="img-responsive" src="">
+            </a>
+
+          </div>
 
             <?php
                 wp_nav_menu( array(
