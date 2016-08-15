@@ -15,9 +15,9 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="contactinfo">
                     <h2>Mohammed Enamul Haque Shajib</h2>
                     <h3>iamsajib1@gmail.com</h3>
-                    <p>42-25 80Th Street
+                    <p>42-25 80th Street
                         <br> Elmhurst, NY - 11373
-                        <br> P: (123) 456-7890 </p>
+                        <br> P: (929) 253-0165 </p>
                 </div>
 
             </div>
