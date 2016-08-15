@@ -17,6 +17,8 @@
 
                         <p class="text-center"><a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/08/web-projects/">Web Design </a><samp>-</samp> | <samp>-</samp> <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/02/24/game/">Programming</a> <samp>-</samp> | <samp>-</samp> <a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/15/animations/"> Animation</a><samp>-</samp> |<samp>-</samp><a href=" http://portfolio.bmcc.is/mohammed.shajib/2016/03/15/graphis/"> Design</a>
                         </p>
+                        <br>
+                        <h3 class="text-center" style="color:#FE4D28">Under Construction</h3>
 
                     </div>
 
